@@ -1,0 +1,53 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.container .bulb-img{
+    width: 100px;
+    margin-left: 30px;
+}
+.container .cat-img{
+    width: 200px;
+}
+.btns{
+    background-color: rgb(51, 47, 47);
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.btns h3{
+    margin: 20px 0px ;
+    color: white;
+    padding-left: 40px;
+    position: relative;
+    bottom: 10px;
+}
+.btns button{
+    width:80px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+}
+.btns .btnon{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+.btns .btnoff{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
